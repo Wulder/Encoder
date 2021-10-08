@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="FileEncoderNetFramework.exe" version="1.0.0.1" publicKeyToken="16a1dcd4b9c8ef52" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FileEncoderNetFramework" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FileEncoderNetFramework.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FileEncoderNetFramework.exe" size="16808">
+      <assemblyIdentity name="FileEncoderNetFramework" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>6FW9018WFoQmh/PQaAXmq7X8stw50UlhqQjKlQpayhs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="FileEncoderNetFramework.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PACAN\Pacan" issuerKeyHash="5224928683cddf05f24ba03514e820cbc0119b82" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>IeWePqhezSy/kDgFHiIBGNSmTDptnQWlYBF4T1ZZC8M=</DigestValue></Reference></SignedInfo><SignatureValue>nphSa6f7fAjFMiSjq25wTLFMDTGyumDIFw+LT6Mxi0Lg0OmPJrqYyDPnnRoqsTSKF5FS98pAUS1tQByoh6HYd0NjDOoX2+XO1d98guLvjH2zgeL9hofidjex9ryFQcasV44QZlkaWefzxBJBmiQ8H+tSQKa/6JddScRkk+ZnLy0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>z0R30fhNcd5MPoNEH5V+r7OEiKTQviwlGxWl/MVQtP5TZ4m5GUzcQiQ9oRBpsVz7luFCE1xDCz0hQCQF2wjSOguHMier0hNygGVg7221kTYPAvoN+xjlKpY57oorb3pH5vzIfjBYv8t7bDi0bEcM+8/zDjcuM773pK5Xt5cxR5E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c30b59564f781160a5059d6d3a4ca6d41801221e053890bf2ccd5ea83e9ee521" Description="" Url=""><as:assemblyIdentity name="FileEncoderNetFramework.exe" version="1.0.0.1" publicKeyToken="16a1dcd4b9c8ef52" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PACAN\Pacan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>g3Kqx/Q1qX/wvQOLWeHU+116oU8mgdxLBoJRy/3nL2I=</DigestValue></Reference></SignedInfo><SignatureValue>sBdGoZloK7Z5O3kdVPVSKoo6N8i0rFvspwoZxy4r2nkToavJQ6eW23I55EuY+aWM4pU7BDTDtF4aHSjgbQQALf6Ml3yxBJwWshSIKOzVRflHFD7qwDetnVgaO5ietGkRr137FHc+5MmRuEWHY0GKzSDMVVzcGrNbAL00i8EMQO4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>z0R30fhNcd5MPoNEH5V+r7OEiKTQviwlGxWl/MVQtP5TZ4m5GUzcQiQ9oRBpsVz7luFCE1xDCz0hQCQF2wjSOguHMier0hNygGVg7221kTYPAvoN+xjlKpY57oorb3pH5vzIfjBYv8t7bDi0bEcM+8/zDjcuM773pK5Xt5cxR5E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQbst2Hv9eDIxCcyiuY3ZshzANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYAUABBAEMAQQBOAFwAUABhAGMAYQBuMB4XDTIxMDkwNDE4NDYwN1oXDTIyMDkwNTAwNDYwN1owITEfMB0GA1UEAx4WAFAAQQBDAEEATgBcAFAAYQBjAGEAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAz0R30fhNcd5MPoNEH5V+r7OEiKTQviwlGxWl/MVQtP5TZ4m5GUzcQiQ9oRBpsVz7luFCE1xDCz0hQCQF2wjSOguHMier0hNygGVg7221kTYPAvoN+xjlKpY57oorb3pH5vzIfjBYv8t7bDi0bEcM+8/zDjcuM773pK5Xt5cxR5ECAwEAATANBgkqhkiG9w0BAQsFAAOBgQALh0Gt5Z1OlRTrgrKo0WtRIRzBJASDGteZHw/v+7O4fmBVNmGuTGOj1RL6JFaaqYhh9UllIy+MeQ7VNTOEqw9QvyoK5JPHIYouhXZEqe0cNUxfTxZVrC2L6PJ4dYQKl7W1XWO9dIMK9KOkUvyg1VrKLLqIFBO3z8w3LxmLwb7I+A==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
